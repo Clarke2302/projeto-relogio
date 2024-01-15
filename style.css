@@ -1,0 +1,35 @@
+html, body {
+    margin:0;
+    padding:0;
+    background-color: rgb(185, 142, 226);
+}
+
+.relogio {
+    border: 2px solid rebeccapurple;
+    height: 100vh; /*tamanho da borda*/
+    display: flex; /*deixar na horizontal*/
+    flex-direction: column;
+    align-items: center; /*deixe no centro da linha*/
+    justify-content: center; /*deixe no centro do site*/
+}
+
+.display{ /*horario*/
+    background-color: rebeccapurple;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px; /*coloca numero no meio*/
+    border-radius: 10px; /*borda arredondada*/
+    color: rgb(255, 255, 255);/*cor numero*/
+    font-size: 6rem;
+    border: 10px solid #f8d953;
+    font-family:'Montserrat Alternates', sans-serif;
+}
+
+footer{
+    font-size: 25px; /*fonte da escrita*/
+    margin-top: 10px;
+    color: black;
+    font-family: 'Instrument Serif', serif;
+
+}
